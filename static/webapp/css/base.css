@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+header {
+    background: #719ecc; 
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+header h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin-right: 60px;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: #ecf0f1;
+    transition: border-bottom 0.3s ease;
+}
+
+a:hover {
+    border-bottom: 2px solid #ecf0f1; 
+}
+
+
+footer {
+    background: #719ecc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+    width:100%;
+}

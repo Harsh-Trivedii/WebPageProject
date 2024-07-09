@@ -1,0 +1,17 @@
+{%extends 'webapp/base.html'%}
+{%load static%}
+{%block styleblock%} <link rel="stylesheet" href="{%static 'webapp/css/form.css'%}"> {%endblock%}
+
+{%block mainblock%}
+<div class="data">
+    <form method="post">
+        {{form.as_p}}
+        {%csrf_token%}
+        <button type="submit">Submit</button>
+    </form>
+    {%if error_message%}
+        {{error_message}}
+    {%endif%}
+</div>
+
+{%endblock%}

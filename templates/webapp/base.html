@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB APP</title>
+    <link rel="stylesheet" href="{%static 'webapp/css/base.css'%}">
+    {%block styleblock%} {%endblock%}
+</head>
+<body>
+    <header>
+        <h1>My Simple Web Page</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="{%url 'date'%}">Date and Quote</a></li>
+                <li><a href="{%url 'userdata'%}">User Data Form</a></li>
+                <li><a href="{%url 'saveduserdata'%}">Saved User Data</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    {%block mainblock%} {%endblock%}
+    
+    <footer>
+        <p>Contact: harshtrivedi1400@gmail.com</p>
+    </footer>
+</body>
+</html>

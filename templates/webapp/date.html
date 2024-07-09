@@ -1,0 +1,10 @@
+{%extends 'webapp/base.html'%}
+{%load static%}
+{%block styleblock%} <link rel="stylesheet" href="{%static 'webapp/css/date.css'%}"> {%endblock%}
+
+{%block mainblock%}
+<div class="data">
+    <h2>Current date and time is: {{date}}</h2>
+    <h2>Quote of the day: {{quote}}</h2>
+</div>
+{%endblock%}

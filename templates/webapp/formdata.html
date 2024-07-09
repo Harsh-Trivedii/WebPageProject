@@ -1,0 +1,11 @@
+{%extends 'webapp/base.html'%}
+{%load static%}
+{%block styleblock%} <link rel="stylesheet" href="{%static 'webapp/css/formdata.css'%}"> {%endblock%}
+
+{%block mainblock%}
+<div class="formdata">
+    <p>Thank you for submitting your details!</p>
+    <p>Name: {{ name }}</p>
+    <p>Email: {{ email }}</p>
+</div>
+{%endblock%}
