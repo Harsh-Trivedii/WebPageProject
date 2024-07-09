@@ -8,10 +8,25 @@
 - Data Persistence- Saving the data in the default database of django sqlite3, and created UserDataForm to store name and email.
 
 ## How to run-
+- Clone this repository in your local machine
 - Install Django on your machine
 - Run migrations and start the development server
 - Visit the URL on a web browser and navigate throught the menu bar to access different functionalities of the website.
 - To view the code structure use an IDE like VSCode.
 
-##Images
+## Images
 
+- Main Page
+![file](images/1.png)
+
+- Current date and time + quote
+![file](images/2.png)
+
+- Form to upload user data
+![file](images/3.png)
+
+- View User data
+![file](images/4.png)
+
+- View saved user data
+![file](images/5.png)
